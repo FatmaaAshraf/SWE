@@ -23,28 +23,27 @@ void Search_for_item(String itemname)
                 for(int i=0;i<it.itemfoundWithDescription.size();i++)
                 {
                 if(it.itemfoundWithDescription.get(i).equals(itemname))
-                {
+                	{
                     System.out.println("item  founded");
-
-                    exit(0);
-                }
+			exit(0);
+                	}
                 
                 }
                  System.out.println("item not  founded");
-
-                
-                
-                
-            
-                
+          
 	}
 	
 	/****************** POST***********************/
-	String post_item() 
+	void post_item() 
 	{
-            String x="";
-		
-				return x;
+         	item i = new item();
+				String m,k;
+    	  		System.out.println("writre the title post");
+    	  		k=input.next();
+    	  		System.out.println("writre the post");
+    	  
+    	  		m=input.next();
+    	  		i.setName(k,1);
 
 	}
 	
