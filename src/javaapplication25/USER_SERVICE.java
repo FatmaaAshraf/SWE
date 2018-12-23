@@ -3,7 +3,7 @@ package javaapplication25;
 import java.io.*;
 import static java.lang.System.exit;
 import java.util.*;
-import static javaapplication23.item.itemfoundWithDescription;
+import static javaapplication25.item.itemfoundWithDescription;
 
 public class USER_SERVICE {
     Scanner input = new Scanner(System.in);
