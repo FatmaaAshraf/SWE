@@ -6,18 +6,17 @@ import java.util.*;
 import static javaapplication25.item.itemfoundWithDescription;
 
 public class USER_SERVICE {
-    Scanner input = new Scanner(System.in);
-    ArrayList<String>na=new ArrayList<String>();
+    	Scanner input = new Scanner(System.in);
+   	ArrayList<String>na=new ArrayList<String>();
         ArrayList<String>un=new ArrayList<String>();
-    ArrayList<String>pas=new ArrayList<String>();
-
+    	ArrayList<String>pas=new ArrayList<String>();
+	USER use = new USER();
+	// item ooo = new item();
  
 
 	/******************** SEARCH ************************/
 void Search_for_item(String itemname) 
-	{
-		
-           
+	{   
             item it=new item();
               
                 for(int i=0;i<it.itemfoundWithDescription.size();i++)
