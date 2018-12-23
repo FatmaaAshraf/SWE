@@ -62,34 +62,17 @@ while(c==1||c==2);
      
       
       if(b==1)
-      {
-      String m,k;
-       System.out.println("writre the title post");
-      k=input.next();
-      System.out.println("writre the post");
-      m=input.next();
-        i.setName(k,1);
-      
-      
-      
-      } 
+                us.post_item();
+       
       else if(b==2)
               {
-                   String n;
-            System.out.println("enter name of item that lost");
-            n=input.next();
-           us.Search_for_item(n);
-            
-
-                
+                    String n;
+                    System.out.println("enter name of item that lost");
+                    n=input.next();
+                    us.Search_for_item(n);
                     
               } 
-                    
-
-
-      
-      
-  
+                   
   
   }
   
