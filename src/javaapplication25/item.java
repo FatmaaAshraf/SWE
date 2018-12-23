@@ -4,14 +4,14 @@ import java.io.*;
 import java.util.*;
 public class item {
  
- private String name;
-  private   int id;
-   private ArrayList<String>question=new ArrayList<String>();
+      private String name;
+      private int id;
+      private ArrayList<String>question=new ArrayList<String>();
       public static ArrayList<String>itemLostWithDiscription=new ArrayList<String>();
       public static ArrayList<String>itemfoundWithDescription=new ArrayList<String>();
-
-
-   private String finderName;
+      private String finderName;
+  	   itemDataAccess access = new itemDataAccess();
+ 
     public void setName(String namee,int i) {
         this.name = namee;
       int y=i;
