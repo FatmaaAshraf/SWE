@@ -4,13 +4,15 @@ package javaapplication25;
 import java.io.*;
 import java.util.*;
 public class USER {
-    private	String name="";
+    	private String name="";
 	private	String username="";
 	private	String password="";
 	private	int id;
+	USER_DATA_ACCESS access = new USER_DATA_ACCESS();
+	questions answer =new questions();
+	public ArrayList<item> has;
 	
 	
-	public ArrayList<item> items;
 	public String get_name()
 	{
 		return name;
